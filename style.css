@@ -88,8 +88,41 @@ ul{ /*taking bullet points off of lists*/
 button{
     background-color: #3882F6;
     color: #E5E7EB;
-    border-radius: 10%;
+    border-radius: 5px;
     border: none;
     font-size: 18px;
     margin: 4px;
+}
+.square{
+    border: 2px solid #3882F6; /* Border width, style, and color */
+    padding: 70px; /* Add some padding inside the div */
+    margin: 10px; /* Add margin outside the div */
+    border-radius: 10px; /* Optional: rounded corners */
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.squares{
+    display: flex;
+    gap: 10px;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sectionheader{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.subtext{
+    text-align: center;
+    color: grey;
 }
