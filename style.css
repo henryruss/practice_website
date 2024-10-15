@@ -5,6 +5,7 @@ body{ /*Setting font, flex display, and flex direction. Broken
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+    margin: 0;
     
 }
 .header{ /*Setting header background and text color.*/
